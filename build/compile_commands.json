@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/C++/Noveaux/build",
+  "command": "E:\\MinGW\\bin\\g++.exe  @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Game.dir\\main.cpp.obj -c E:\\C++\\Noveaux\\main.cpp",
+  "file": "E:/C++/Noveaux/main.cpp",
+  "output": "CMakeFiles/Game.dir/main.cpp.obj"
+},
+{
+  "directory": "E:/C++/Noveaux/build",
+  "command": "E:\\MinGW\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -o CMakeFiles\\Game.dir\\glad.c.obj -c E:\\C++\\Noveaux\\glad.c",
+  "file": "E:/C++/Noveaux/glad.c",
+  "output": "CMakeFiles/Game.dir/glad.c.obj"
+}
+]
