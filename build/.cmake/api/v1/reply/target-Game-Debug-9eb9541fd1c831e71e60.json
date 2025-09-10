@@ -15,14 +15,11 @@
 		[
 			"add_executable",
 			"target_link_libraries",
-			"set_target_properties",
-			"find_package",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt",
-			"lib/cmake/SDL2/sdl2-config.cmake"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -32,35 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 19,
 				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 13,
-				"parent" : 0
-			},
-			{
-				"file" : 1,
-				"parent" : 3
 			},
 			{
 				"command" : 2,
-				"file" : 1,
-				"line" : 165,
-				"parent" : 4
-			},
-			{
-				"command" : 4,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -77,11 +58,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 3,
 					"path" : "E:/C++/Noveaux/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "E:/C++/Noveaux/include/SDL2"
 				}
@@ -110,11 +91,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 3,
 					"path" : "E:/C++/Noveaux/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "E:/C++/Noveaux/include/SDL2"
 				}
@@ -156,77 +137,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "E:\\C++\\Noveaux\\lib\\libSDL2.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lm",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-ldinput8",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-ldxguid",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-ldxerr8",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-luser32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lgdi32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lwinmm",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-limm32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lole32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-loleaut32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lshell32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lsetupapi",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-lversion",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "-luuid",
+				"fragment" : "E:\\C++\\Noveaux\\lib\\libSDL2.dll.a",
 				"role" : "libraries"
 			},
 			{

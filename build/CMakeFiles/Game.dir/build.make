@@ -110,7 +110,7 @@ Game.exe: CMakeFiles/Game.dir/main.cpp.obj
 Game.exe: CMakeFiles/Game.dir/glad.c.obj
 Game.exe: CMakeFiles/Game.dir/build.make
 Game.exe: E:/C++/Noveaux/lib/libSDL2main.a
-Game.exe: E:/C++/Noveaux/lib/libSDL2.a
+Game.exe: E:/C++/Noveaux/lib/libSDL2.dll.a
 Game.exe: CMakeFiles/Game.dir/linkLibs.rsp
 Game.exe: CMakeFiles/Game.dir/objects1.rsp
 Game.exe: CMakeFiles/Game.dir/link.txt
