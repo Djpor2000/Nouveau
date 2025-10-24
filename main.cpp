@@ -3,6 +3,7 @@
 #include <iostream>
 #include <glad/glad.h>
 #include "stbimage.h"
+#include "shader.h"
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
@@ -93,44 +94,8 @@ int main( int argc, char* args[] )
 
     running = initializeWindow(window);
 
-    const char *vertexShaderSource = "#version 330 core\n"
-    "layout (location = 0) in vec3 aPos;\n"
-    "layout (location = 1) in vec2 aTexCoord;\n"
-    "out vec2 TexCoord;\n"
-    "void main()\n"
-    "{\n"
-    "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
-    "   TexCoord = aTexCoord;\n"
-    "}\0";
-
-    const char *fragmentShaderSource = "#version 330 core\n"
-    "out vec4 FragColor;\n"
-    "in vec2 TexCoord;\n"
-    "uniform sampler2D ourTexture;\n"
-    "void main()\n"
-    "{\n"
-    "FragColor = texture(ourTexture, TexCoord);\n"
-    "}\0";
-
-    unsigned int vertexShader;
-    vertexShader = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
-    glCompileShader(vertexShader);
-
-    unsigned int fragmentShader;
-    fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
-    glCompileShader(fragmentShader);
-
-    unsigned int shaderProgram;
-    shaderProgram = glCreateProgram();
-
-    glAttachShader(shaderProgram, vertexShader);
-    glAttachShader(shaderProgram, fragmentShader);
-    glLinkProgram(shaderProgram);
-    glDeleteShader(vertexShader);
-    glDeleteShader(fragmentShader);  
-    glUseProgram(shaderProgram);
+    Shader shader("vertexShader.v", "fragmentShader.f");
+    shader.use();
 
 
     unsigned int texture;
@@ -174,7 +139,7 @@ int main( int argc, char* args[] )
     glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(0);
     glEnableVertexAttribArray(1);
-    glUniform1i(glGetUniformLocation(shaderProgram, "ourTexture"), 0);
+    shader.setInt("ourTexture", 0);
 
     while(running){
         processInput();
