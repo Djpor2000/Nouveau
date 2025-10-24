@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/C++/Noveaux/glad.c" "CMakeFiles/Game.dir/glad.c.obj" "gcc" "CMakeFiles/Game.dir/glad.c.obj.d"
-  "E:/C++/Noveaux/main.cpp" "CMakeFiles/Game.dir/main.cpp.obj" "gcc" "CMakeFiles/Game.dir/main.cpp.obj.d"
+  "E:/C++/Noveau/glad.c" "CMakeFiles/Game.dir/glad.c.obj" "gcc" "CMakeFiles/Game.dir/glad.c.obj.d"
+  "E:/C++/Noveau/main.cpp" "CMakeFiles/Game.dir/main.cpp.obj" "gcc" "CMakeFiles/Game.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

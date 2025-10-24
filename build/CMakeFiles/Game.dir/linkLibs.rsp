@@ -1,1 +1,1 @@
-  -LE:/C++/Noveaux/lib  E:/C++/Noveaux/lib/libSDL2main.a E:/C++/Noveaux/lib/libSDL2.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LE:/C++/Noveau/lib  E:/C++/Noveau/lib/libSDL2main.a E:/C++/Noveau/lib/libSDL2.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

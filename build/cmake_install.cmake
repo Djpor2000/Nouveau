@@ -1,4 +1,4 @@
-# Install script for directory: E:/C++/Noveaux
+# Install script for directory: E:/C++/Noveau
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/C++/Noveaux/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/C++/Noveau/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

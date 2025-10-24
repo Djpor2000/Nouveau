@@ -1,4 +1,4 @@
-CMakeFiles/Game.dir/glad.c.obj: E:\C++\Noveaux\glad.c \
+CMakeFiles/Game.dir/glad.c.obj: E:\C++\Noveau\glad.c \
  E:/MinGW/x86_64-w64-mingw32/include/stdio.h \
  E:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  E:/MinGW/x86_64-w64-mingw32/include/corecrt.h \
@@ -22,8 +22,8 @@ CMakeFiles/Game.dir/glad.c.obj: E:\C++\Noveaux\glad.c \
  E:/MinGW/x86_64-w64-mingw32/include/errno.h \
  E:/MinGW/x86_64-w64-mingw32/include/string.h \
  E:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
- E:/C++/Noveaux/include/glad/glad.h \
- E:/C++/Noveaux/include/KHR/khrplatform.h \
+ E:/C++/Noveau/include/glad/glad.h \
+ E:/C++/Noveau/include/KHR/khrplatform.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stdint.h \
  E:/MinGW/x86_64-w64-mingw32/include/stdint.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stddef.h \

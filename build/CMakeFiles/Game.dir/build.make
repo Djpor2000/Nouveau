@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C++\Noveaux
+CMAKE_SOURCE_DIR = E:\C++\Noveau
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C++\Noveaux\build
+CMAKE_BINARY_DIR = E:\C++\Noveau\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Game.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/Game.dir/flags.make
 
 CMakeFiles/Game.dir/main.cpp.obj: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/main.cpp.obj: CMakeFiles/Game.dir/includes_CXX.rsp
-CMakeFiles/Game.dir/main.cpp.obj: E:/C++/Noveaux/main.cpp
+CMakeFiles/Game.dir/main.cpp.obj: E:/C++/Noveau/main.cpp
 CMakeFiles/Game.dir/main.cpp.obj: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\C++\Noveaux\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/main.cpp.obj"
-	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/main.cpp.obj -MF CMakeFiles\Game.dir\main.cpp.obj.d -o CMakeFiles\Game.dir\main.cpp.obj -c E:\C++\Noveaux\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\C++\Noveau\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/main.cpp.obj"
+	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/main.cpp.obj -MF CMakeFiles\Game.dir\main.cpp.obj.d -o CMakeFiles\Game.dir\main.cpp.obj -c E:\C++\Noveau\main.cpp
 
 CMakeFiles/Game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game.dir/main.cpp.i"
-	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\C++\Noveaux\main.cpp > CMakeFiles\Game.dir\main.cpp.i
+	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\C++\Noveau\main.cpp > CMakeFiles\Game.dir\main.cpp.i
 
 CMakeFiles/Game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game.dir/main.cpp.s"
-	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\C++\Noveaux\main.cpp -o CMakeFiles\Game.dir\main.cpp.s
+	E:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\C++\Noveau\main.cpp -o CMakeFiles\Game.dir\main.cpp.s
 
 CMakeFiles/Game.dir/glad.c.obj: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/glad.c.obj: CMakeFiles/Game.dir/includes_C.rsp
-CMakeFiles/Game.dir/glad.c.obj: E:/C++/Noveaux/glad.c
+CMakeFiles/Game.dir/glad.c.obj: E:/C++/Noveau/glad.c
 CMakeFiles/Game.dir/glad.c.obj: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\C++\Noveaux\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Game.dir/glad.c.obj"
-	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game.dir/glad.c.obj -MF CMakeFiles\Game.dir\glad.c.obj.d -o CMakeFiles\Game.dir\glad.c.obj -c E:\C++\Noveaux\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\C++\Noveau\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Game.dir/glad.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game.dir/glad.c.obj -MF CMakeFiles\Game.dir\glad.c.obj.d -o CMakeFiles\Game.dir\glad.c.obj -c E:\C++\Noveau\glad.c
 
 CMakeFiles/Game.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Game.dir/glad.c.i"
-	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C++\Noveaux\glad.c > CMakeFiles\Game.dir\glad.c.i
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\C++\Noveau\glad.c > CMakeFiles\Game.dir\glad.c.i
 
 CMakeFiles/Game.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Game.dir/glad.c.s"
-	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\C++\Noveaux\glad.c -o CMakeFiles\Game.dir\glad.c.s
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\C++\Noveau\glad.c -o CMakeFiles\Game.dir\glad.c.s
 
 # Object files for target Game
 Game_OBJECTS = \
@@ -109,12 +109,12 @@ Game_EXTERNAL_OBJECTS =
 Game.exe: CMakeFiles/Game.dir/main.cpp.obj
 Game.exe: CMakeFiles/Game.dir/glad.c.obj
 Game.exe: CMakeFiles/Game.dir/build.make
-Game.exe: E:/C++/Noveaux/lib/libSDL2main.a
-Game.exe: E:/C++/Noveaux/lib/libSDL2.dll.a
+Game.exe: E:/C++/Noveau/lib/libSDL2main.a
+Game.exe: E:/C++/Noveau/lib/libSDL2.dll.a
 Game.exe: CMakeFiles/Game.dir/linkLibs.rsp
 Game.exe: CMakeFiles/Game.dir/objects1.rsp
 Game.exe: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\C++\Noveaux\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\C++\Noveau\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/Game.dir/clean:
 .PHONY : CMakeFiles/Game.dir/clean
 
 CMakeFiles/Game.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\C++\Noveaux E:\C++\Noveaux E:\C++\Noveaux\build E:\C++\Noveaux\build E:\C++\Noveaux\build\CMakeFiles\Game.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\C++\Noveau E:\C++\Noveau E:\C++\Noveau\build E:\C++\Noveau\build E:\C++\Noveau\build\CMakeFiles\Game.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Game.dir/depend
 

@@ -19,8 +19,8 @@ class Shader{
         std::ifstream fShaderFile;
         //(not sure what this shit does)
         // ensure ifstream objects can throw exceptions: 
-        //vShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
-        //fShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
+        // vShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
+        // fShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
         try {
             // open files
             vShaderFile.open(vertexPath);
@@ -41,7 +41,7 @@ class Shader{
         }
         const char* vShaderCode = vertexCode.c_str();
         const char * fShaderCode = fragmentCode.c_str();
-        // 2. compile shaders
+        // compile shaders
         unsigned int vertex, fragment;
         // vertex shader
         vertex = glCreateShader(GL_VERTEX_SHADER);

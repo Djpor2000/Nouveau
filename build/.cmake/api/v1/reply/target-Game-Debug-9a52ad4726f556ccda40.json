@@ -59,12 +59,12 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/C++/Noveaux/include"
+					"path" : "E:/C++/Noveau/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "E:/C++/Noveaux/include/SDL2"
+					"path" : "E:/C++/Noveau/include/SDL2"
 				}
 			],
 			"language" : "CXX",
@@ -92,12 +92,12 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/C++/Noveaux/include"
+					"path" : "E:/C++/Noveau/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "E:/C++/Noveaux/include/SDL2"
+					"path" : "E:/C++/Noveau/include/SDL2"
 				}
 			],
 			"language" : "C",
@@ -127,17 +127,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LE:\\C++\\Noveaux\\lib",
+				"fragment" : "-LE:\\C++\\Noveau\\lib",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "E:\\C++\\Noveaux\\lib\\libSDL2main.a",
+				"fragment" : "E:\\C++\\Noveau\\lib\\libSDL2main.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "E:\\C++\\Noveaux\\lib\\libSDL2.dll.a",
+				"fragment" : "E:\\C++\\Noveau\\lib\\libSDL2.dll.a",
 				"role" : "libraries"
 			},
 			{

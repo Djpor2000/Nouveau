@@ -4,7 +4,7 @@ project(Game VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-set(SDL2_DIR "E:/C++/Noveaux/lib/cmake/SDL2")
+set(SDL2_DIR "E:/C++/Noveau/lib/cmake/SDL2")
 set(SDL2_NO_MWINDOWS true)
 set(SDL2_USE_STATIC_LIBS OFF)
 
