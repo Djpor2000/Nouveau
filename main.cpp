@@ -56,7 +56,7 @@ bool initializeWindow(SDL_Window*& window){
     }
 
     //Create window
-    window = SDL_CreateWindow("Noveaux", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+    window = SDL_CreateWindow("Nouveau", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
     if(window == NULL) {
         printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
         return 0;

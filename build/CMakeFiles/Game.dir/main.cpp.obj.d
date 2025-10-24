@@ -1,11 +1,11 @@
-CMakeFiles/Game.dir/main.cpp.obj: E:\C++\Noveau\main.cpp \
- E:/C++/Noveau/include/SDL2/SDL.h E:/C++/Noveau/include/SDL2/SDL_main.h \
- E:/C++/Noveau/include/SDL2/SDL_stdinc.h \
- E:/C++/Noveau/include/SDL2/SDL_config.h \
- E:/C++/Noveau/include/SDL2/SDL_platform.h \
- E:/C++/Noveau/include/SDL2/begin_code.h \
- E:/C++/Noveau/include/SDL2/close_code.h \
- E:/C++/Noveau/include/SDL2/SDL_config_windows.h \
+CMakeFiles/Game.dir/main.cpp.obj: E:\C++\Nouveau\main.cpp \
+ E:/C++/Nouveau/include/SDL2/SDL.h E:/C++/Nouveau/include/SDL2/SDL_main.h \
+ E:/C++/Nouveau/include/SDL2/SDL_stdinc.h \
+ E:/C++/Nouveau/include/SDL2/SDL_config.h \
+ E:/C++/Nouveau/include/SDL2/SDL_platform.h \
+ E:/C++/Nouveau/include/SDL2/begin_code.h \
+ E:/C++/Nouveau/include/SDL2/close_code.h \
+ E:/C++/Nouveau/include/SDL2/SDL_config_windows.h \
  E:/MinGW/x86_64-w64-mingw32/include/winsdkver.h \
  E:/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
  E:/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -23,20 +23,20 @@ CMakeFiles/Game.dir/main.cpp.obj: E:\C++\Noveau\main.cpp \
  E:/MinGW/x86_64-w64-mingw32/include/_mingw_stdarg.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stdint.h \
  E:/MinGW/x86_64-w64-mingw32/include/stdint.h \
- E:/C++/Noveau/include/SDL2/SDL_assert.h \
- E:/C++/Noveau/include/SDL2/SDL_atomic.h \
- E:/C++/Noveau/include/SDL2/SDL_audio.h \
- E:/C++/Noveau/include/SDL2/SDL_error.h \
- E:/C++/Noveau/include/SDL2/SDL_endian.h \
- E:/C++/Noveau/include/SDL2/SDL_mutex.h \
- E:/C++/Noveau/include/SDL2/SDL_thread.h \
+ E:/C++/Nouveau/include/SDL2/SDL_assert.h \
+ E:/C++/Nouveau/include/SDL2/SDL_atomic.h \
+ E:/C++/Nouveau/include/SDL2/SDL_audio.h \
+ E:/C++/Nouveau/include/SDL2/SDL_error.h \
+ E:/C++/Nouveau/include/SDL2/SDL_endian.h \
+ E:/C++/Nouveau/include/SDL2/SDL_mutex.h \
+ E:/C++/Nouveau/include/SDL2/SDL_thread.h \
  E:/MinGW/x86_64-w64-mingw32/include/process.h \
  E:/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
  E:/MinGW/x86_64-w64-mingw32/include/sys/types.h \
  E:/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
- E:/C++/Noveau/include/SDL2/SDL_rwops.h \
- E:/C++/Noveau/include/SDL2/SDL_clipboard.h \
- E:/C++/Noveau/include/SDL2/SDL_cpuinfo.h \
+ E:/C++/Nouveau/include/SDL2/SDL_rwops.h \
+ E:/C++/Nouveau/include/SDL2/SDL_clipboard.h \
+ E:/C++/Nouveau/include/SDL2/SDL_cpuinfo.h \
  E:/MinGW/x86_64-w64-mingw32/include/intrin.h \
  E:/MinGW/x86_64-w64-mingw32/include/setjmp.h \
  E:/MinGW/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
@@ -161,39 +161,39 @@ CMakeFiles/Game.dir/main.cpp.obj: E:\C++\Noveau\main.cpp \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/ammintrin.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xopintrin.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/cpuid.h \
- E:/C++/Noveau/include/SDL2/SDL_events.h \
- E:/C++/Noveau/include/SDL2/SDL_video.h \
- E:/C++/Noveau/include/SDL2/SDL_pixels.h \
- E:/C++/Noveau/include/SDL2/SDL_rect.h \
- E:/C++/Noveau/include/SDL2/SDL_surface.h \
- E:/C++/Noveau/include/SDL2/SDL_blendmode.h \
- E:/C++/Noveau/include/SDL2/SDL_keyboard.h \
- E:/C++/Noveau/include/SDL2/SDL_keycode.h \
- E:/C++/Noveau/include/SDL2/SDL_scancode.h \
- E:/C++/Noveau/include/SDL2/SDL_mouse.h \
- E:/C++/Noveau/include/SDL2/SDL_joystick.h \
- E:/C++/Noveau/include/SDL2/SDL_guid.h \
- E:/C++/Noveau/include/SDL2/SDL_gamecontroller.h \
- E:/C++/Noveau/include/SDL2/SDL_sensor.h \
- E:/C++/Noveau/include/SDL2/SDL_quit.h \
- E:/C++/Noveau/include/SDL2/SDL_gesture.h \
- E:/C++/Noveau/include/SDL2/SDL_touch.h \
- E:/C++/Noveau/include/SDL2/SDL_filesystem.h \
- E:/C++/Noveau/include/SDL2/SDL_haptic.h \
- E:/C++/Noveau/include/SDL2/SDL_hidapi.h \
- E:/C++/Noveau/include/SDL2/SDL_hints.h \
- E:/C++/Noveau/include/SDL2/SDL_loadso.h \
- E:/C++/Noveau/include/SDL2/SDL_log.h \
- E:/C++/Noveau/include/SDL2/SDL_messagebox.h \
- E:/C++/Noveau/include/SDL2/SDL_metal.h \
- E:/C++/Noveau/include/SDL2/SDL_power.h \
- E:/C++/Noveau/include/SDL2/SDL_render.h \
- E:/C++/Noveau/include/SDL2/SDL_shape.h \
- E:/C++/Noveau/include/SDL2/SDL_system.h \
- E:/C++/Noveau/include/SDL2/SDL_timer.h \
- E:/C++/Noveau/include/SDL2/SDL_version.h \
- E:/C++/Noveau/include/SDL2/SDL_locale.h \
- E:/C++/Noveau/include/SDL2/SDL_misc.h \
+ E:/C++/Nouveau/include/SDL2/SDL_events.h \
+ E:/C++/Nouveau/include/SDL2/SDL_video.h \
+ E:/C++/Nouveau/include/SDL2/SDL_pixels.h \
+ E:/C++/Nouveau/include/SDL2/SDL_rect.h \
+ E:/C++/Nouveau/include/SDL2/SDL_surface.h \
+ E:/C++/Nouveau/include/SDL2/SDL_blendmode.h \
+ E:/C++/Nouveau/include/SDL2/SDL_keyboard.h \
+ E:/C++/Nouveau/include/SDL2/SDL_keycode.h \
+ E:/C++/Nouveau/include/SDL2/SDL_scancode.h \
+ E:/C++/Nouveau/include/SDL2/SDL_mouse.h \
+ E:/C++/Nouveau/include/SDL2/SDL_joystick.h \
+ E:/C++/Nouveau/include/SDL2/SDL_guid.h \
+ E:/C++/Nouveau/include/SDL2/SDL_gamecontroller.h \
+ E:/C++/Nouveau/include/SDL2/SDL_sensor.h \
+ E:/C++/Nouveau/include/SDL2/SDL_quit.h \
+ E:/C++/Nouveau/include/SDL2/SDL_gesture.h \
+ E:/C++/Nouveau/include/SDL2/SDL_touch.h \
+ E:/C++/Nouveau/include/SDL2/SDL_filesystem.h \
+ E:/C++/Nouveau/include/SDL2/SDL_haptic.h \
+ E:/C++/Nouveau/include/SDL2/SDL_hidapi.h \
+ E:/C++/Nouveau/include/SDL2/SDL_hints.h \
+ E:/C++/Nouveau/include/SDL2/SDL_loadso.h \
+ E:/C++/Nouveau/include/SDL2/SDL_log.h \
+ E:/C++/Nouveau/include/SDL2/SDL_messagebox.h \
+ E:/C++/Nouveau/include/SDL2/SDL_metal.h \
+ E:/C++/Nouveau/include/SDL2/SDL_power.h \
+ E:/C++/Nouveau/include/SDL2/SDL_render.h \
+ E:/C++/Nouveau/include/SDL2/SDL_shape.h \
+ E:/C++/Nouveau/include/SDL2/SDL_system.h \
+ E:/C++/Nouveau/include/SDL2/SDL_timer.h \
+ E:/C++/Nouveau/include/SDL2/SDL_version.h \
+ E:/C++/Nouveau/include/SDL2/SDL_locale.h \
+ E:/C++/Nouveau/include/SDL2/SDL_misc.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/iostream \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ostream \
@@ -309,9 +309,9 @@ CMakeFiles/Game.dir/main.cpp.obj: E:\C++\Noveau\main.cpp \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ostream.tcc \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/istream \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc \
- E:/C++/Noveau/include/glad/glad.h \
- E:/C++/Noveau/include/KHR/khrplatform.h E:\C++\Noveau\stbimage.h \
- E:/C++/Noveau/include/stb_image.h \
+ E:/C++/Nouveau/include/glad/glad.h \
+ E:/C++/Nouveau/include/KHR/khrplatform.h E:\C++\Nouveau\stbimage.h \
+ E:/C++/Nouveau/include/stb_image.h \
  E:/MinGW/x86_64-w64-mingw32/include/string.h \
  E:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/math.h \
@@ -331,7 +331,7 @@ CMakeFiles/Game.dir/main.cpp.obj: E:\C++\Noveau\main.cpp \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/poly_hermite.tcc \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/poly_laguerre.tcc \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/tr1/riemann_zeta.tcc \
- E:/MinGW/x86_64-w64-mingw32/include/assert.h E:\C++\Noveau\shader.h \
+ E:/MinGW/x86_64-w64-mingw32/include/assert.h E:\C++\Nouveau\shader.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/fstream \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/codecvt.h \
  E:/MinGW/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \

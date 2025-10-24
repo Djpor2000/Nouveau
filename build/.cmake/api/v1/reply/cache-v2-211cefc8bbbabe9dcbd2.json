@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/C++/Noveau/build"
+			"value" : "e:/C++/Nouveau/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "E:/MinGW/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "E:/MinGW/bin/gcc.exe"
 		},
 		{
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/C++/Noveau/build/CMakeFiles/pkgRedirects"
+			"value" : "E:/C++/Nouveau/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/C++/Noveau"
+			"value" : "E:/C++/Nouveau"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1355,7 +1355,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/C++/Noveau/build"
+			"value" : "E:/C++/Nouveau/build"
 		},
 		{
 			"name" : "Game_IS_TOP_LEVEL",
@@ -1379,7 +1379,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/C++/Noveau"
+			"value" : "E:/C++/Nouveau"
+		},
+		{
+			"name" : "SDL2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDL2_DIR-NOTFOUND"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
