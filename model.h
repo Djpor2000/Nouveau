@@ -1,5 +1,6 @@
 #include <glm/glm.hpp>
 #include <vector>
+#include "shader.h"
 
 struct Vertex {
   glm::vec3 pos;
