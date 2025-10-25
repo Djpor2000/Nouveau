@@ -1,1 +1,1 @@
--IE:/C++/Nouveau/include -isystem E:/C++/Nouveau/include/SDL2
+-IE:/C++/Nouveau/include -IE:/C++/Nouveau/include/assimp -isystem E:/C++/Nouveau/include/SDL2

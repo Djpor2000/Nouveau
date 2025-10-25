@@ -15,5 +15,6 @@ find_package(SDL2 REQUIRED)
 
 add_executable(Game main.cpp glad.c stbimage.h)
 
-target_include_directories(Game PUBLIC ${SDL2_INCLUDE_DIRS})
-target_link_libraries(Game ${SDL2_LIBRARIES})
+target_include_directories(Game PUBLIC ${SDL2_INCLUDE_DIRS} "E:/C++/Nouveau/include/assimp")
+target_link_directories(Game PRIVATE "E:/C++/Nouveau/lib")
+target_link_libraries(Game ${SDL2_LIBRARIES} assimp-vc143-mt)
